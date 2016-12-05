@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:layout_alignParentTop="true"
+    android:background="@color/colorPrimary"
+    android:minHeight="?actionBarSize"
+    android:paddingBottom="0dp"
+    android:contentInsetEnd="16dp"
+    android:contentInsetRight="16dp"
+    app:titleTextColor="#FFFFFF"
+    android:elevation="0dp"
+    />

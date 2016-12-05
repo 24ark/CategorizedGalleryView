@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#db6130</color>
+    <color name="colorPrimaryDark">#AD471F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Sliding Strip-->
+    <color name="step_pager_previous_tab_color">#99FFFFFF</color>
+    <color name="step_pager_selected_tab_color">#FFFFFFFF</color>
+    <color name="step_pager_selected_last_tab_color">#FFFFFFFF</color>
+    <color name="step_pager_next_tab_color">#99FFFFFF</color>
+    <color name="text_color">#FFFFFF</color>
+</resources>

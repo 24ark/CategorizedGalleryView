@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/parentLayout"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+    <TextView
+        android:id="@+id/category_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <com.arkitvora.categorizedgalleryview.StepPagerStrip
+        android:id="@+id/strip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+        android:paddingRight="?android:attr/listPreferredItemPaddingRight"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>
